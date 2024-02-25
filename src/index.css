@@ -1,0 +1,37 @@
+nav a{
+
+  color: darkblue;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 200px;
+
+  
+
+}
+.menu{
+  background-color: darkcyan;
+  padding: 70px;
+  
+}
+
+.app{
+  text-align: center;
+  font-size: 80px;
+  color: darkgreen;
+}
+
+.top{
+  background-color: darkgray;
+}
+
+.card{
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin-top: 30px;
+  gap: 10px;
+  margin-bottom: 100px;
+  width: 1000px;
+  background-color: lightblue;
+}
+
