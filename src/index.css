@@ -35,3 +35,46 @@ nav a{
   background-color: lightblue;
 }
 
+/* .app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: darkgray;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+/* } */
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+} 
+
+/* navbar.css */
+nav {
+  display: flex; /* Arrange links horizontally */
+  justify-content: space-between; /* Distribute links evenly */
+  align-items: center; /* Align links vertically in the center */
+  padding: 1rem; /* Add some padding for better spacing */
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+nav a {
+  color: #333; /* Dark gray text color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold font for emphasis */
+  font-size: 1rem; /* Adjust font size if needed */
+  padding: 0.5rem 1rem; /* Add some padding for clickable area */
+  border-radius: 5px; /* Rounded corners for a polished look */
+  transition: all 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+nav a:hover {
+  background-color: #e0e0e0; /* Lighter gray on hover */
+}
+
+

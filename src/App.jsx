@@ -208,7 +208,7 @@ let data = [
 
   return (
     <div>
-      <h1 className="app">React Router Task</h1>
+      <h1 className="app-container">React Router Task</h1>
 
 <div className="top">
       <BrowserRouter>
@@ -216,6 +216,8 @@ let data = [
            <div className='menu'>
             <Navbar />
            </div>
+
+           <main className="main-content">   
 
         <Routes className="link">
           
@@ -226,7 +228,7 @@ let data = [
            <Route path='/career' element={<Career data={data} />} />
            
         </Routes>
-      
+        </main>
       </BrowserRouter>
       </div>
     </div>
